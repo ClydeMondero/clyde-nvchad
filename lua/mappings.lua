@@ -79,12 +79,17 @@ vim.api.nvim_create_autocmd("TextYankPost", {
   pattern = "*",
 })
 
--- -- go to buffer #
--- for i = 1, 4, 1 do
---   map("n", string.format("<leader>%s", i), function()
---     vim.api.nvim_set_current_buf(vim.t.bufs[i])
---   end, { desc = string.format("go to buffer %s", i) })
--- end
+-- go to buffer #
+local arr = { "(", ")", "}", "+" }
+for i = 1, 4, 1 do
+  map("n", string.format("<C-%s>", arr[i]), function()
+    vim.api.nvim_set_current_buf(vim.t.bufs[i])
+  end, { desc = string.format("go to buffer %s", arr[i]) })
+end
+
+-- Map Ctrl+Tab to go to the previous buffer
+vim.api.nvim_set_keymap("n", "<C-Tab>", ":bprevious<CR>", { noremap = true, silent = true })
+
 --
 -- -- arrange buffer
 -- map("n", "<leader>.", function()

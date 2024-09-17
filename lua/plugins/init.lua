@@ -70,6 +70,19 @@ return {
     },
   },
 
+  -- tailwind integration
+  {
+    "luckasRanarison/tailwind-tools.nvim",
+    name = "tailwind-tools",
+    build = ":UpdateRemotePlugins",
+    dependencies = {
+      "nvim-treesitter/nvim-treesitter",
+      "nvim-telescope/telescope.nvim",
+      "neovim/nvim-lspconfig",
+    },
+    opts = {},
+  },
+
   -- autotag and rename
   {
     "windwp/nvim-ts-autotag",
@@ -100,6 +113,7 @@ return {
     enabled = false,
   },
 
+  -- file explorer
   {
     "nvim-tree/nvim-tree.lua",
     opts = {

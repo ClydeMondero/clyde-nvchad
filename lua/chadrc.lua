@@ -11,7 +11,7 @@ M.ui = {
   },
   theme = "catppuccin",
   tabufline = {
-    enabled = false,
+    enabled = true,
   },
   nvdash = {
     load_on_startup = true,

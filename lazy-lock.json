@@ -24,7 +24,7 @@
   "nvim-ts-autotag": { "branch": "main", "commit": "dc5e1687ab76ee02e0f11c5ce137f530b36e98b3" },
   "nvim-web-devicons": { "branch": "master", "commit": "e612de3d3a41a6b7be47f51e956dddabcbf419d9" },
   "plenary.nvim": { "branch": "master", "commit": "a3e3bc82a3f95c5ed0d7201546d5d2c19b20d683" },
-  "tailwind-tools": { "branch": "master", "commit": "bf7c89151b55673c1d47f6699fc3d1a4c5b68f11" },
+  "tailwind-tools": { "branch": "master", "commit": "41e901e7b4470082b5388b8385249632642c2510" },
   "telescope.nvim": { "branch": "master", "commit": "10b8a82b042caf50b78e619d92caf0910211973d" },
   "toggleterm.nvim": { "branch": "main", "commit": "48be57eaba817f038d61bbf64d2c597f578c0827" },
   "ui": { "branch": "v2.5", "commit": "d74c53807f4b7152e614d112a37483a3d5a1c5d9" },
